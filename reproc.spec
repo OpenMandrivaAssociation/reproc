@@ -39,6 +39,7 @@ reproc++ depends on reproc and adapts its API to an idiomatic C++11 API.  It als
 %{_includedir}/reproc/export.h
 %{_includedir}/reproc/reproc.h
 %{_includedir}/reproc/run.h
+%{_libdir}/pkgconfig/reproc.pc
 
 %{_libdir}/libreproc.so
 
