@@ -34,3 +34,16 @@ reproc++ depends on reproc and adapts its API to an idiomatic C++11 API.  It als
 %make_install -C build
 
 %files
+# devel - need create devel package
+%{_includedir}/reproc/drain.h
+%{_includedir}/reproc/export.h
+%{_includedir}/reproc/reproc.h
+%{_includedir}/reproc/run.h
+
+%{_libdir}/libreproc.so
+
+%{_libdir}/cmake/reproc/reproc-*.cmake
+
+# Libs - need create lib* package
+%{_libdir}/libreproc.so.14
+%{_libdir}/libreproc.so.14.2.0
