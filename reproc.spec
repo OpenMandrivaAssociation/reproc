@@ -3,7 +3,7 @@
 %define devname %mklibname -d %{name}
 
 Name:           reproc
-Version:        14.2.0
+Version:        14.2.2
 Release:        1
 Summary:        Cross-platform library that simplifies working with external CLI applications from C and C++
 Group:          Development/C
