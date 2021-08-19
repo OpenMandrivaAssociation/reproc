@@ -65,4 +65,4 @@ stopping and communicating with external programs.
 
 %files -n %{libname}
 %{_libdir}/libreproc.so.%{major}
-%{_libdir}/libreproc.so.%{version}
+%{_libdir}/libreproc.so.14.2.2
