@@ -4,7 +4,7 @@
 
 Name:           reproc
 Version:        14.2.3
-Release:        1
+Release:        2
 Summary:        Cross-platform library that simplifies working with external CLI applications from C and C++
 Group:          Development/C
 License:        MIT
